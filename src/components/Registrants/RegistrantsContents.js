@@ -95,7 +95,7 @@ const RegistrantsContents = () => {
                                     <div className="session-left-menu w-50">
                                         <span><Link to="/sessions" style={{ color: '#B9B9B9' }}>Session</Link></span>
                                         <span><Link to="/session/registrants" >Registants</Link></span>
-                                        <span><Link to="/session" style={{ color: '#B9B9B9' }} >Setting</Link></span>
+                                        <span><Link to="/session/setting" style={{ color: '#B9B9B9' }} >Setting</Link></span>
                                     </div>
                                     <div className="session-right-menu">
                                         <button className="btn btn-primary" style={{ marginRight: '37px', fontSize: '12px' }}>

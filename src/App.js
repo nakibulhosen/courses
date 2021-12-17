@@ -8,6 +8,7 @@ import HomePage from './components/HomePage/HomePage';
 import Courses from './components/Courses/Courses';
 import Sessions from './components/Sessions/Sessions';
 import Registrans from './components/Registrants/Registrans';
+import CourseSetting from './components/CourseSetting/CourseSetting';
 
 function App() {
 
@@ -22,6 +23,9 @@ function App() {
         </Route>
         <Route path='/session/registrants'>
           <Registrans />
+        </Route>
+        <Route path='/session/setting'>
+          <CourseSetting />
         </Route>
         <Route exact path='/'>
           <HomePage />

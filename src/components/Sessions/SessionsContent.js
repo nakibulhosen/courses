@@ -80,7 +80,7 @@ const SessionsContent = () => {
                                 <div className="session-left-menu w-50">
                                     <span><Link to="/sessions" >Session</Link></span>
                                     <span><Link  to="/session/registrants" style={{color:'#B9B9B9'}}>Registants</Link></span>
-                                    <span><Link  to="/session" style={{color:'#B9B9B9'}} >Setting</Link></span>
+                                    <span><Link  to="//session/setting" style={{color:'#B9B9B9'}} >Setting</Link></span>
                                 </div>
                                 <div className="session-right-menu">
                                     <span><img src={upchart} alt="icon" /></span>
