@@ -7,19 +7,24 @@ import {
 import HomePage from './components/HomePage/HomePage';
 import Courses from './components/Courses/Courses';
 import Sessions from './components/Sessions/Sessions';
+import Registrans from './components/Registrants/Registrans';
 
 function App() {
+
   return (
     <Router>
       <Switch>
-        <Route  path='/courses'>
-          <Courses/>
+        <Route path='/courses'>
+          <Courses />
         </Route>
-        <Route  path='/sessions'>
-          <Sessions/>
+        <Route path='/sessions'>
+          <Sessions />
+        </Route>
+        <Route path='/session/registrants'>
+          <Registrans />
         </Route>
         <Route exact path='/'>
-          <HomePage/>
+          <HomePage />
         </Route>
       </Switch>
     </Router>

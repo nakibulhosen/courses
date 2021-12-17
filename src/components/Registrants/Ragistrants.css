@@ -1,0 +1,58 @@
+.registrants-table{
+    border: 1px solid #E5E5E5;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+.registrants-table table tr th{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(113, 113, 113, 0.8);
+}
+.registrants-table table tbody{
+    border-top: 1px solid #E5E5E5
+}
+.registrants-table table thead:after {
+    content: "-";
+    display: block;
+    line-height: 1em;
+    color: transparent;
+    width: 100%
+}
+
+.registrants-table table tr td{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(113, 113, 113, 0.6);
+}
+
+.registrants-table table tbody tr:first-child td {
+    padding-top: 30px;
+}
+.registrants-table table tbody tr:last-child {
+    border-bottom: 1px solid #E5E5E5
+}
+.registrants-table table tbody tr:last-child td {
+    padding-bottom: 20px;
+}
+.ragistrant-table-footer {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.ragistrant-table-footer span:first-child{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    color: #B9B9B9;
+    padding-right: 22px;
+}
+
+.ragistrant-table-footer span:last-child{
+    color: #808080;
+    font-size: 15px
+}

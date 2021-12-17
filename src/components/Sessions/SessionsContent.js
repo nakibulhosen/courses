@@ -11,7 +11,7 @@ const SessionsContent = () => {
     useEffect(() => {
         const elearning = document.getElementById('e-learning');
         const lightBtn = document.getElementById('light-btn');
-        if (path === '/sessions') {
+        if (path === '/sessions' || '/session/registrants') {
             elearning.style.display = 'none';
             lightBtn.style.display = 'none';
         }
@@ -78,8 +78,8 @@ const SessionsContent = () => {
                         <div className="session-container">
                             <div className="session-menu d-flex align-items-center justify-content-between">
                                 <div className="session-left-menu w-50">
-                                    <span><Link to="/session">Session</Link></span>
-                                    <span><Link  to="/session" style={{color:'#B9B9B9'}}>Registants</Link></span>
+                                    <span><Link to="/sessions" >Session</Link></span>
+                                    <span><Link  to="/session/registrants" style={{color:'#B9B9B9'}}>Registants</Link></span>
                                     <span><Link  to="/session" style={{color:'#B9B9B9'}} >Setting</Link></span>
                                 </div>
                                 <div className="session-right-menu">

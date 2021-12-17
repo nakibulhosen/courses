@@ -19,6 +19,7 @@
 .session-menu {
     height: 48px;
     border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 15px;
 }
 
 .session-left-menu span a, .session-right-menu span {
