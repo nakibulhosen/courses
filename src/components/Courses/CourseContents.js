@@ -15,7 +15,7 @@ const CourseContents = () => {
  
 
     return (
-        <div className='container-fluid'>
+        <div className='container-fluid' style={{marginTop:"75px"}}>
             <div className="row">
                 <div className="col-12">
                     <div className="top-item-container d-flex justify-content-between mb-4">

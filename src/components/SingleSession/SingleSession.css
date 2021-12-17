@@ -1,0 +1,39 @@
+.single-session {
+    border: 1px solid #C8C8C8;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 129px;
+}
+.session-details {
+    min-width: 225px;
+}
+.session-details h4{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #808080;
+    margin-bottom: 0px
+}
+.session-details button{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    margin-left: 11px;
+}
+.session-details p{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    color: #D9D8D8;
+    margin-top: 6px;
+}
+.session-registrant h4, .session-attendees h4, .session-history h4{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #717171;
+}

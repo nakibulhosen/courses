@@ -4,3 +4,38 @@
     line-height: 25px;
     color: #595959;
 }
+.session-wrapper{
+    background: #EFF0F5;
+    border-radius: 40px;
+    margin-top: 50px;
+    padding: 10px 17px;
+}
+.session-container{
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 30px 95px;
+}
+
+.session-menu {
+    height: 48px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.session-left-menu span a, .session-right-menu span {
+    padding-right: 33px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #808080;
+    text-decoration: none
+}
+button.light-btn i {
+    padding-right: 20px;
+    }
+.session-right-menu {
+   padding-right:10px;
+}
+.session-left-menu {
+   padding-left:10px;
+}
