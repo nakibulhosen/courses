@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Nexa'; /*a name to be used later*/
+  src: url('./assets/fonts/NexaDemo-Light.ttf'); /*URL to font*/
+}
+
+body{
+  background:#F7F9FB;
+  font-family: Nexa;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +44,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Custom styles  */
+
+.default-btn{
+  background: #2477BC;
+  border-radius: 20px;
+  font-family: Nexa;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+  padding: 10px 17px;
+    border: none;
+}
+.text-default{
+  color: #808080;
+}
+.primary-color{
+  color:#157AFF !important;
+}
+.grey-background{
+  background: rgba(239, 240, 245, 0.5);
+}
+.text-small{
+  font-family: Nexa;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+  color: #808080;
+}
+.cursor-pointer{
+  cursor: pointer;
 }

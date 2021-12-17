@@ -1,0 +1,32 @@
+form#top-form span.fa-search, form#top-form span.fa-filter{
+    color: #DEDEDE;
+    
+}
+form#top-form span.fa-search{
+    padding-right: 21px;
+}
+form#top-form span.fa-filter{
+    padding-left: 21px;
+}
+
+nav#top-nav{
+    margin-bottom: 30px;
+}
+form#top-form input[type="search"] {
+    height:48px;
+    border-radius: 20px;
+    width: 480px;
+    background: #EFF0F5;
+    font-family: Nexa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #CDCDCD;
+    border:none;
+    padding-left:23px;
+}
+
+ul#right-nav li{
+    padding-left: 43px;
+}

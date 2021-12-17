@@ -1,0 +1,12 @@
+#sidebar{
+    max-width: 200px;
+}
+ul#menu li {
+    margin-bottom: 10px;
+    padding: 5px 15px;
+}
+ul#menu li:hover {
+    color: #2477BC;
+    background: rgba(21, 122, 255, 0.15);
+    border-radius: 5px
+}
