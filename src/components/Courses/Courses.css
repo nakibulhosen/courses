@@ -1,23 +1,6 @@
-.light-btn{
-    border: none;
-    background: #DFE6FD;
-    border-radius: 5px;
-    color: #4F74E4;
-    margin-right: 10px;
-    padding: 0px 20px;
-    font-size: 17px;
-}
 
-.link-btn{
-    border: none;
-    background: transparent;
-    color: #A0A0A0;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 18px;
-    margin-left: 10px;
-}
+
+
 
 .course-container{
     background: #EFF0F5;

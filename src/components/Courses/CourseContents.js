@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+
 import SingleCourse from '../SignleCourse/SingleCourse';
 
 
@@ -9,7 +10,9 @@ const CourseContents = () => {
         collapseTrigger.addEventListener('click',()=>{
             collapseTrigger.classList.toggle('grey-background')
         })
-    },[])
+    },[]);
+
+ 
 
     return (
         <div className='container-fluid'>

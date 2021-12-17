@@ -1,13 +1,21 @@
 import React from 'react';
 import TrainersImage from '../TrainersImage/TrainersImage';
 import trainer from '../../assets/image/trainer.png';
+import { useHistory } from 'react-router-dom';
+
+
 const SingleCourse = ({collapseId}) => {
+    const history = useHistory();
+
+    const gotoSessions = ()=>{
+        history.push('/sessions')
+    }
     return (
         <div className="course-item-container bg-white px-3 pt-1 mt-5" >
             <div className="course-top-titles d-flex justify-content-evenly align-items-center cursor-pointer" data-bs-toggle="collapse" data-bs-target={`#${collapseId}`} aria-expanded="false" aria-controls={`${collapseId}`} id="collapse-trigger">
                 <span className='course-top-title primary-color'> <i className="fas fa-forward"></i> 3</span>
                 <span className='course-top-title '> <span className="dot"></span> Live </span>
-                <span className='course-top-title primary-color'> Nagotiation </span>
+                <span className='course-top-title primary-color cursor-pointer' onClick={gotoSessions}> Nagotiation </span>
                 <span className='course-top-title'> '25/09/20' </span>
                 <span className='course-top-title'> '25/09/21' </span>
                 <span className='course-top-title'> 60 </span>

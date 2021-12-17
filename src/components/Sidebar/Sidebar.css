@@ -10,3 +10,7 @@ ul#menu li:hover {
     background: rgba(21, 122, 255, 0.15);
     border-radius: 5px
 }
+
+.nav-link span{
+    margin-left:20.7px
+}
