@@ -3,6 +3,16 @@ import { Link } from 'react-router-dom';
 import './Sidebar.css';
 import logo from '../../assets/image/logo.png';
 import Navbar from '../Navbar/Navbar';
+import homeIcon from '../../assets/image/home.svg';
+import dashboardIcon from '../../assets/image/dashboard.svg';
+import courseIcon from '../../assets/image/course.svg';
+import examIcon from '../../assets/image/exam.svg';
+import discussionIcon from '../../assets/image/discussion.svg';
+import surveryIcon from '../../assets/image/survey.svg';
+import certificateIcon from '../../assets/image/certificate.svg';
+import libraryIcon from '../../assets/image/liabrary.svg';
+import settingIcon from '../../assets/image/setting.svg';
+import crmIcon from '../../assets/image/crm.svg';
 
 const Sidebar = (props) => {
     return (
@@ -17,45 +27,45 @@ const Sidebar = (props) => {
                         <ul className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                             <li className="nav-item">
                                 <Link to='/' className="nav-link align-middle px-0 text-small">
-                                    <i className=" fas fa-house-damage"></i> <span className=" d-none d-sm-inline">Overview</span>
+                                    <img src={homeIcon} alt="overview" /> <span className=" d-none d-sm-inline">Overview</span>
                                 </Link>
                             </li>
                             <li>
                                 <Link to="#submenu1" data-bs-toggle="collapse" className="nav-link px-0 align-middle text-small">
-                                    <i className="fas fa-user-shield"></i> <span className=" d-none d-sm-inline">Dashboard</span> </Link>
+                                <img src={dashboardIcon} alt="overview" /> <span className=" d-none d-sm-inline">Dashboard</span> </Link>
                             </li>
                             <li>
                                 <Link to='/courses' className="nav-link px-0 align-middle text-small">
-                                    <i className="fas fa-book-open"></i> <span className=" d-none d-sm-inline">Courses</span></Link>
+                                <img src={courseIcon} alt="overview" /> <span className=" d-none d-sm-inline">Courses</span></Link>
                             </li>
                             <li>
                                 <Link to="#submenu2" data-bs-toggle="collapse" className="nav-link px-0 align-middle text-small">
-                                    <i className="fas fa-comment-alt"></i> <span className=" d-none d-sm-inline">Discussion</span></Link>
+                                <img src={discussionIcon} alt="overview" /> <span className=" d-none d-sm-inline">Discussion</span></Link>
                             </li>
                             <li>
                                 <Link to="#submenu2" data-bs-toggle="collapse" className="nav-link px-0 align-middle text-small">
-                                    <i className="fas fa-pencil-ruler"></i> <span className=" d-none d-sm-inline">Exams</span></Link>
+                                <img src={examIcon} alt="overview" /> <span className=" d-none d-sm-inline">Exams</span></Link>
                             </li>
                             <li>
                                 <Link to="#submenu2" data-bs-toggle="collapse" className="nav-link px-0 align-middle text-small">
-                                    <i className="fas fa-user-friends"></i> <span className=" d-none d-sm-inline">CRM</span></Link>
+                                <img src={crmIcon} alt="overview" /> <span className=" d-none d-sm-inline">CRM</span></Link>
                             </li>
                             
                             <li>
                                 <Link to='/' className="nav-link px-0 align-middle text-small">
-                                    <i className="fas fa-chart-pie"></i> <span className=" d-none d-sm-inline">Servey</span> </Link>
+                                <img src={surveryIcon} alt="overview" /> <span className=" d-none d-sm-inline">Servey</span> </Link>
                             </li>
                             <li>
                                 <Link to='/' className="nav-link px-0 align-middle text-small">
-                                    <i className="fas fa-certificate"></i> <span className=" d-none d-sm-inline">Cirtificate</span> </Link>
+                                <img src={certificateIcon} alt="overview" /> <span className=" d-none d-sm-inline">Cirtificate</span> </Link>
                             </li>
                             <li>
                                 <Link to='/' className="nav-link px-0 align-middle text-small">
-                                    <i className="fas fa-book-reader"></i> <span className=" d-none d-sm-inline">Library</span> </Link>
+                                   <img src={libraryIcon} alt="" /> <span className=" d-none d-sm-inline">Library</span> </Link>
                             </li>
                             <li>
                                 <Link to='/' className="nav-link px-0 align-middle text-small">
-                                    <i className="fas fa-cog"></i> <span className=" d-none d-sm-inline">Setting</span> </Link>
+                                <img src={settingIcon} alt="overview" /> <span className=" d-none d-sm-inline">Setting</span> </Link>
                             </li>
                         </ul>
                     </div>
