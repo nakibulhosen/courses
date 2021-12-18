@@ -111,3 +111,11 @@ button.btn-link-danger {
 .required {
     font-size: 24px;
 }
+
+input.course-name {
+    width: 190px;
+}
+
+input.course-description {
+    width: 350px;
+}

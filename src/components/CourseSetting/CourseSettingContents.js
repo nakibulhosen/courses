@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import './CourseSetting.css'
+import './CourseSetting.css';
+import copyIcon from '../../assets/image/copyIcon.svg';
 
 const CourseSettingContents = () => {
 const location = useLocation();
@@ -71,7 +72,7 @@ useEffect(()=>{
                                                     <option value="yes">Yes</option>
                                                     <option value="no">No</option>
                                                 </select>
-                                                <button className='copy-btn'><span className="fas fa-copy"></span></button>
+                                                <button className='copy-btn'><img src={copyIcon} alt="copy" /></button>
                                             </div>
                                             <div className='form-block'>
                                                 <h3 className='setting-form-title'>Evaluation Form <span className='text-danger required'>*</span> <span className='fas fa-question-circle'></span></h3>
@@ -80,7 +81,7 @@ useEffect(()=>{
                                                     <option value="yes">Yes</option>
                                                     <option value="no">No</option>
                                                 </select>
-                                                <button className='copy-btn'><span className="fas fa-copy"></span></button>
+                                                <button className='copy-btn'><img src={copyIcon} alt="copy" /></button>
                                             </div>
 
                                             <div className='form-block d-flex mb-4'>
