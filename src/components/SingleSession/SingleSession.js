@@ -8,7 +8,7 @@ const SingleSession = (props) => {
             <div className='d-flex align-items-center justify-content-around h-100'>
                 <div className='session-details'>
                     <div className='d-flex align-items-center'>
-                        <h4>{sessionInfo.name}</h4>
+                        <h4 style={{fontSize:'18px'}}>{sessionInfo.name}</h4>
                         <button className='light-btn'
                             style={{ background: sessionInfo.statusbg, color: sessionInfo.statuscolor }} >{sessionInfo.status}</button>
                     </div>

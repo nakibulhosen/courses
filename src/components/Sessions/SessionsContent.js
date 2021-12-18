@@ -63,9 +63,9 @@ const SessionsContent = () => {
                 <div className="col-12">
                     <div className="session-top-content d-flex justify-content-between align-items-center">
                         <Link to="/courses" className='text-decoration-none navigation-text'>
-                            <i className="fas fa-chevron-left primary-color pe-3" style={{ fontSize: "18px" }}></i> Navigation
+                            <i className="fas fa-chevron-left primary-color pe-3" style={{ fontSize: "18px" }}></i> Nagotiation
                         </Link>
-                        <div>
+                        <div className='sessions-top-button'>
                             <button className='light-btn me-5'> <i className="fas fa-share-alt"></i> Share</button>
                             <button className='light-btn'> <i className="fas fa-plus"></i> Add Session</button>
                         </div>

@@ -13,7 +13,7 @@
 .session-container{
     background: #FFFFFF;
     border-radius: 30px;
-    padding: 30px 95px;
+    padding: 50px 95px;
 }
 
 .session-menu {
@@ -39,4 +39,7 @@ button.light-btn i {
 }
 .session-left-menu {
    padding-left:10px;
+}
+.sessions-top-button button.light-btn {
+    font-size: 15px;
 }

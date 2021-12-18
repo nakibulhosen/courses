@@ -8,8 +8,13 @@
     min-width: 225px;
 }
 .session-details h4{
+    font-size: 14px;
+}
+.session-details h5{
+    font-size: 14px;
+}
+.session-details h4 , .session-details h5{
     font-weight: bold;
-    font-size: 18px;
     line-height: 18px;
     text-align: center;
     color: #808080;
@@ -21,6 +26,7 @@
     line-height: 12px;
     text-align: center;
     margin-left: 11px;
+    width: 129px;
 }
 .session-details p{
     font-weight: bold;
@@ -31,7 +37,7 @@
 }
 .session-registrant h4, .session-attendees h4, .session-history h4{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 18px;
     text-align: center;
     letter-spacing: 0.05em;
