@@ -98,11 +98,11 @@ const RegistrantsContents = () => {
                                         <span><Link to="/session/setting" style={{ color: '#B9B9B9' }} >Setting</Link></span>
                                     </div>
                                     <div className="session-right-menu ragistrants-import-export">
-                                        <button className="btn btn-primary" style={{ marginRight: '37px', fontSize: '12px' }}>
+                                        <button className="btn btn-primary" style={{ marginRight: '37px', fontSize: '12px', paddingTop:'8px' }}>
                                             <img src={exportIcon} alt="export" style={{ marginRight: '12px', paddingBottom: '5px' }} />
                                             Export
                                         </button>
-                                        <button className="btn btn-primary" style={{ fontSize: '12px' }}>
+                                        <button className="btn btn-primary" style={{ fontSize: '12px', paddingTop:'8px' }} >
                                             <img src={userPlusIcon} alt="invite" style={{ marginRight: '12px', paddingBottom: '5px' }} />
                                             Invite
                                         </button>

@@ -102,3 +102,6 @@ body{
 .cursor-pointer{
   cursor: pointer;
 }
+h2.greetings {
+  font-size: 25px;
+}
