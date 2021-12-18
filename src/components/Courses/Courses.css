@@ -1,6 +1,20 @@
+.course-page-title{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    color: #595959;
 
+}
+.course-list-top-button button.link-btn {
+    font-size: 15px;
+}
 
-
+.course-list-top-button button.link-btn span {
+    padding-right: 10px;
+}
+.course-list-top-button .light-btn{
+    font-size: 14px;
+}
 
 .course-container{
     background: #EFF0F5;

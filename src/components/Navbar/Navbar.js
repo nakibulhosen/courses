@@ -8,7 +8,7 @@ const Navbar = () => {
                 <form className="d-flex align-items-center" id="top-form">
                    <span className="fas fa-search"></span> 
                    <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                   <span className="fas fa-filter"></span>
+                   <span className="fas fa-sliders-h"></span>
                 </form>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -22,7 +22,7 @@ const Navbar = () => {
                             <button className="default-btn" id="e-learning"><span className="fas fa-graduation-cap pe-3"></span> E-Learning</button>
                         </li>
                         <li className="nav-item">
-                            <button className="default-btn"> <span className="fas fa-plus pe-3"></span> Add Courses</button>
+                            <button className="default-btn" id='add-course'> <span className="fas fa-plus pe-3"></span> Add Courses</button>
                         </li>
                         
                     </ul>

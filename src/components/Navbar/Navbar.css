@@ -1,11 +1,11 @@
-form#top-form span.fa-search, form#top-form span.fa-filter{
+form#top-form span.fa-search, form#top-form span.fa-sliders-h{
     color: #DEDEDE;
     
 }
 form#top-form span.fa-search{
     padding-right: 21px;
 }
-form#top-form span.fa-filter{
+form#top-form span.fa-sliders-h{
     padding-left: 21px;
 }
 
@@ -28,7 +28,14 @@ form#top-form input[type="search"] {
 }
 form#top-form input[type="search"]::-webkit-input-placeholder { /* Edge */
     color: #CDCDCD;
+    font-size: 14px;
   }
 ul#right-nav li{
     padding-left: 43px;
+}
+button#e-learning {
+    width: 170px;
+}
+button#add-course {
+    width: 170px;
 }

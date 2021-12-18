@@ -19,8 +19,8 @@ const CourseContents = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="top-item-container d-flex justify-content-between mb-4">
-                        <h2 style={{fontSize:'25px', lineHeight:'25px'}}>Courses</h2>
-                        <div className="d-flex">
+                        <h2  className='course-page-title'>Courses</h2>
+                        <div className="d-flex course-list-top-button">
                             <button className='light-btn'> <span className="fas fa-calendar-alt"></span> Calender</button>
                             <button className='light-btn'> <span className="fas fa-chart-bar"></span> Analytics</button>
                             <button className='light-btn'> <span className="fas fa-file-export"></span> Export</button>
