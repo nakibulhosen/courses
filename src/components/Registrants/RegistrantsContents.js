@@ -77,9 +77,9 @@ const RegistrantsContents = () => {
                 <div className="col-12">
                     <div className="session-top-content d-flex justify-content-between align-items-center">
                         <Link to="/courses" className='text-decoration-none navigation-text'>
-                            <i className="fas fa-chevron-left primary-color pe-3" style={{ fontSize: "18px" }}></i> Navigation
+                            <i className="fas fa-chevron-left primary-color pe-3" style={{ fontSize: "18px" }}></i> Nagotiation
                         </Link>
-                        <div>
+                        <div className='ragistrants-top-btns'>
                             <button className='light-btn me-5'> <i className="fas fa-share-alt"></i> Share</button>
                             <button className='light-btn'> <i className="fas fa-plus"></i> Add Session</button>
                         </div>
@@ -97,7 +97,7 @@ const RegistrantsContents = () => {
                                         <span><Link to="/session/registrants" >Registants</Link></span>
                                         <span><Link to="/session/setting" style={{ color: '#B9B9B9' }} >Setting</Link></span>
                                     </div>
-                                    <div className="session-right-menu">
+                                    <div className="session-right-menu ragistrants-import-export">
                                         <button className="btn btn-primary" style={{ marginRight: '37px', fontSize: '12px' }}>
                                             <img src={exportIcon} alt="export" style={{ marginRight: '12px', paddingBottom: '5px' }} />
                                             Export

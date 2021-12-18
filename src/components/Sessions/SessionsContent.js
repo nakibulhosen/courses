@@ -16,6 +16,7 @@ const SessionsContent = () => {
             lightBtn.style.display = 'none';
         }
     }, [path])
+    
     const sessionData = [
         {
             name: 'Conflict',

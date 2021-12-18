@@ -5,7 +5,7 @@
 }
 .registrants-table table tr th{
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 16px;
     text-align: center;
     color: rgba(113, 113, 113, 0.8);
@@ -25,7 +25,7 @@
     padding-top: 20px;
     text-align: center;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 16px;
     color: rgba(113, 113, 113, 0.6);
 }
@@ -55,4 +55,11 @@
 .ragistrant-table-footer span:last-child{
     color: #808080;
     font-size: 15px
+}
+.sessions-top-button button.light-btn {
+    font-size: 15px;
+}
+
+.ragistrants-import-export button {
+    width: 129px;
 }

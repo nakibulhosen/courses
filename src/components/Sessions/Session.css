@@ -40,6 +40,6 @@ button.light-btn i {
 .session-left-menu {
    padding-left:10px;
 }
-.sessions-top-button button.light-btn {
+.sessions-top-button button.light-btn, .ragistrants-top-btns button.light-btn{
     font-size: 15px;
 }
